@@ -1,0 +1,73 @@
+.backgroundColumn{
+	border-right: 7px solid white;
+	border-bottom: 4px solid white;
+	background-position: center;
+	background-size: cover;
+	height: 33vh;
+}
+.backgroundColumn:hover{
+	cursor:pointer;
+	filter:blur(3px);
+	transition: 0.5s -webkit-filter linear;
+}
+
+#firstRow .col-sm-8{
+	background-image:url(../img/1-8.jpg);
+}
+#firstRow .col-sm-4{
+	background-image:url(../img/1-4.jpg);
+}
+#secondRow .col-sm-4{
+	background-image:url(../img/2-4.jpg);
+}
+#secondRow .col-sm-8{
+	background-image:url(../img/2-8.jpg);
+}
+#thirdRow .col-sm-12{
+	background-image:url(../img/3-12.jpg);
+}
+#restaurantFormBG,#birthdaysFormBG,#clubFormBG,#masterclassFormBG,#friendsFormBG,#reservationMenuBG{
+	display:none;
+}
+
+.labels{
+	color:#fff;
+	position:absolute;
+	z-index:1;
+	font-family:kontiki;
+	background-color:rgba(249, 175, 111, 0.73);
+	padding:10px;
+}
+.labels h2{
+	font-size:50px;
+}
+@media screen and (min-width: 681px) {
+#restaurantFormBtn .labels{
+	top:10%;
+	left:32%;
+}
+#birthdaysFormBtn .labels{
+	top:10%;
+	left:78%;
+}
+#masterclassFormBtn .labels{
+	left: 15%;
+    top: 42%;
+}
+#clubFormBtn .labels{
+	top: 42%;
+    left: 63%;
+}
+#friendsFormBtn .labels{
+	top: 75vh;
+    left: 40%;
+}
+}
+
+@media screen and (max-width: 680px) {
+#restaurantFormBtn .labels,#birthdaysFormBtn .labels,#masterclassFormBtn .labels,
+#clubFormBtn .labels,#friendsFormBtn .labels{
+	top:'';
+	left:0;
+}
+}

@@ -1,0 +1,23 @@
+h1.my-4{
+color: #d41111;
+margin-top: 5%;
+}
+p.ContactUsdesc{
+	font-family: OpenSansRegular;
+    font-weight: bolder;
+    color: #4c4c4c;
+}
+#contactForm{
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.sendMsg,.sendMsg:hover{
+	    padding: 8px;
+    background-color: #d41111;
+    border: 0px;
+    color: #fff;
+    font-family: OpenSansRegular;
+    margin-top: 10px;
+    font-weight: bold;
+	text-decoration:none;
+}

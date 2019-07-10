@@ -1,0 +1,52 @@
+.collapsedFilter,.collapsedFilter:hover,.collapsedFilter:focus{
+	background-color: #f3f3f3;
+    border: 0px;
+    border-radius: 0px;
+    width: 100%;
+    text-align: left;
+    color: #d52221;
+    font-weight: bolder;
+    font-family: OpenSansRegular;
+	padding: 5px;
+	display:block;
+	text-decoration:none;
+	font-size: 16px;
+}
+.collapsedFilter .fa{
+	padding-right:7px;
+}
+.collapsedFilterDiv{
+	background-color: #f3f3f3;
+    padding-left: 30px;
+	color: #9d9d9d;
+	padding-right:10px;
+}
+#DISCIPLINES ul li a,#DISCIPLINES ul li a:hover{
+	color: #9d9d9d;
+	text-decoration:none;
+}
+#filterSection{
+	background-color: #fff;
+	border:3px solid #d52221;
+	margin-bottom:13%;
+}
+#DISCIPLINES ul,#TUITIONFEE ul,#DURATION ul,#ATTENDANCE ul{
+	list-style-type:none;
+	padding-bottom: 15px;
+}
+#DISCIPLINES ul li,#TUITIONFEE ul li .checkbox label,#DURATION ul li .checkbox label,
+#ATTENDANCE ul li .checkbox label,#DEGREETYPE ul li .checkbox label{
+	font-family: RalewayLight;
+    font-weight: bolder;
+	padding-top: 5px;
+}
+#TUITIONFEE ul li .checkbox span ,#DURATION ul li .checkbox span,#ATTENDANCE ul li .checkbox span,#DEGREETYPE ul li .checkbox span{
+	color: #545454;
+    font-style: italic;
+	font-weight: bolder;
+    font-size: 11px;
+}
+.checkbox, .radio{
+	margin-top:0px;
+	margin-bottom:0px;
+}

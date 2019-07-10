@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>WhichUni</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+
+    <!-- Custom CSS -->
+    
+	<link href="css/select2.css" rel="stylesheet">
+	<link href="css/uniCSS.css" rel="stylesheet">
+	<link href="css/homepage.css" rel="stylesheet">
+	<link href="css/searchCSS.css" rel="stylesheet">
+		<link href="css/footer.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body style="overflow-x:hidden;">
+<div class="container-fluid" style="padding-left:0px;padding-right:0px">
+	<div class="row">
+		<div class="col-sm-12" style="background-image:url('img/universities.png');min-height: 540px;background-position: 50% 50%;background-size: cover;">
+			<nav class="navbar navbar-default navbar-static-top" style="margin-top: 30px;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#" style="	margin-left:30px;">
+			<img src="img/logo.png" style="height:69px;">
+		  </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav" style="margin-left:25%;margin-top: 1%;">
+            <li><a href="#">About us</a></li>
+            <li><a href="#about">Services</a></li>
+            <li><a href="#contact">Universities</a></li>
+			<li><a href="#contact">Contact us</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" style="margin-right:3%;margin-top: 1%;">
+            <li><a href="../navbar/" style="background-color:#d41111;border:1px solid #d41111;margin-right: 8px;padding: 12px;">Register</a></li>
+            <li><a href="../navbar-fixed-top/" style="
+    border:1px solid #d41111;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    ">Login</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+		<div class="landingTitle">
+				<h1>BUILD YOUR FUTURE</h1>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum 
+					has been the industry's standard dummy text ever since the 1500s,</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-12">
+			<div class="col-sm-4" style="margin-top:5%;">
+			<div id="filterSection">
+				<div class="form-group">
+				 <a class="collapsedFilter" data-toggle="collapse" href="#DISCIPLINES" aria-expanded="false" aria-controls="DISCIPLINES">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>DISCIPLINES
+				  </a>
+				  <div class="collapse in collapsedFilterDiv" id="DISCIPLINES">
+					  <div class="card card-body">
+						<ul>
+						<li><a href="#">Agriculture & Forestry (9)</a></li>
+						<li><a href="#">Applied Sciences & Professions (28)</a></li>
+						<li><a href="#">Arts, Design & Architecture (148)</a></li>
+						<li><a href="#">Business & Management (234)</a></li>
+						<li><a href="#">Computer Science & IT (778)</a></li>
+						<li><a href="#">Education & Training (74)</a></li>
+						<li><a href="#">Engineering & Technology (591)</a></li>
+						<li><a href="#">Environmental Studies & Earth Sciences (87)</a></li>
+						<li><a href="#">Hospitality, Leisure & Sports (12)</a></li>
+						<li><a href="#">Humanities (90)</a></li>
+						<li><a href="#">Journalism & Media (32)</a></li>
+						<li><a href="#">Law (23)</a></li>
+						<li><a href="#">Medicine & Health (76)</a></li>
+						<li><a href="#">Natural Sciences & Mathematics (472)</a></li>
+						<li><a href="#">Social Sciences (164)</a></li>
+						</ul>
+						</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				 <a class="collapsedFilter" data-toggle="collapse" href="#TUITIONFEE" aria-expanded="false" aria-controls="TUITIONFEE">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>TUITION FEE
+				  </a>
+				  <div class="collapse in collapsedFilterDiv" id="TUITIONFEE">
+					  <div class="card card-body">
+						<ul>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">0-500 <span>USD per year</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">500-1000 <span>USD per year</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">1000-2000 <span>USD per year</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">2000-4000 <span>USD per year</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">4000 +<span>USD per year</span></label>
+							</div>
+						</li>
+						</ul>
+						</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				 <a class="collapsedFilter" data-toggle="collapse" href="#DURATION" aria-expanded="false" aria-controls="DURATION">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>DURATION
+				  </a>
+				  <div class="collapse in collapsedFilterDiv" id="DURATION">
+					  <div class="card card-body">
+						<ul>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">Less Than 1 year<span> (90)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">1 year<span> (70)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">1 - 2 years<span> (40)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">More Than 2 years<span> (10)</span></label>
+							</div>
+						</li>
+						</ul>
+						</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				 <a class="collapsedFilter" data-toggle="collapse" href="#ATTENDANCE" aria-expanded="false" aria-controls="ATTENDANCE">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>ATTENDANCE
+				  </a>
+				  <div class="collapse in collapsedFilterDiv" id="ATTENDANCE">
+					  <div class="card card-body">
+						<ul>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">Full-Time<span> (190)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">Part-Time<span> (270)</span></label>
+							</div>
+						</li>
+						</ul>
+						</div>
+				  </div>
+				</div>
+				<div class="form-group">
+				 <a class="collapsedFilter" data-toggle="collapse" href="#DEGREETYPE" aria-expanded="false" aria-controls="DEGREETYPE">
+					<i class="fa fa-angle-right" aria-hidden="true"></i>DEGREE TYPE
+				  </a>
+				  <div class="collapse in collapsedFilterDiv" id="DEGREETYPE">
+					  <div class="card card-body">
+						<ul>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">M.Sc.<span> Master of Science(1403)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">M.Sc.<span> Master of Science(1403)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">M.Sc.<span> Master of Science(1403)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">M.Sc.<span> Master of Science(1403)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">M.Sc.<span> Master of Science(1403)</span></label>
+							</div>
+						</li>
+						<li><div class="checkbox">
+							  <label><input type="checkbox" value="">M.Sc.<span> Master of Science(1403)</span></label>
+							</div>
+						</li>
+						</ul>
+						</div>
+				  </div>
+				</div>
+			</div>
+			</div>
+			<div class="col-sm-8" style="margin-top:3%;">
+				<h4 style="font-family:RalewayExtraBold;margin-bottom:3px;">Filters:</h4>
+				<span style="border: 1px solid;padding: 2px 10px;font-family: RalewayLight;border-radius: 24px;font-weight: bold;">applied Sciences<a href="#" style="margin-left: 6px;font-size: 18px;color: #d41111;">x</a></span>
+				<span style="border: 1px solid;padding: 2px 10px;font-family: RalewayLight;border-radius: 24px;font-weight: bold;">applied Sciences<a href="#" style="margin-left: 6px;font-size: 18px;color: #d41111;">x</a></span>
+				<span style="border: 1px solid;padding: 2px 10px;font-family: RalewayLight;border-radius: 24px;font-weight: bold;">applied Sciences<a href="#" style="margin-left: 6px;font-size: 18px;color: #d41111;">x</a></span>
+				<span style="border: 1px solid;padding: 2px 10px;font-family: RalewayLight;border-radius: 24px;font-weight: bold;">applied Sciences<a href="#" style="margin-left: 6px;font-size: 18px;color: #d41111;">x</a></span>
+				<span style="border: 1px solid;padding: 2px 10px;font-family: RalewayLight;border-radius: 24px;font-weight: bold;">applied Sciences<a href="#" style="margin-left: 6px;font-size: 18px;color: #d41111;">x</a></span>
+			
+			<div style="background-color: #f3f3f3;margin-bottom:3%;padding:5px;margin-top:2%;">
+				<h3 style="font-family:RalewayExtraBold;color:#D41111;margin-bottom:4px;">Biomedical Sciences, Master</h3>
+				<h4 style="font-family:OpenSansLight;margin-top:0px;color: #9d9d9d;">University of lorem | Lorem,Ispum</h4>
+				<p class="searchIcons"><i class="fa fa-money" aria-hidden="true"></i>10,000 EUR / full</p>
+				<p class="searchIcons"><i class="fa fa-clock-o" aria-hidden="true"></i>2 years</p>
+				<p class="searchIcons"><i class="fa fa-university" aria-hidden="true"></i>On Campus</p>
+				<p class="searchIcons"><i class="fa fa-comments-o" aria-hidden="true"></i>English</p>
+				<div style="float:left;">
+					<img src="https://storage-prtl-co.imgix.net/mp/6e7b9a5c.png?h=66&w=132&fit=fill&bg=fff&pad=8">
+				</div>
+				<div style="margin-left: 131px;">
+					<p style="font-family: RalewayLight;font-weight: bold;">The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B 
+					</p>
+				</div>
+				<div style="text-align:right;padding: 10px;">	
+					<a style="color: #FFF;font-family: RalewayLight;font-weight: bold;background-color: #d52221;padding: 10px;" href="#">read more</a>
+				</div>
+			</div>
+				<div style="background-color: #f3f3f3;margin-bottom:3%;padding:5px;margin-top:2%;">
+				<h3 style="font-family:RalewayExtraBold;color:#D41111;margin-bottom:4px;">Biomedical Sciences, Master</h3>
+				<h4 style="font-family:OpenSansLight;margin-top:0px;color: #9d9d9d;">University of lorem | Lorem,Ispum</h4>
+				<p class="searchIcons"><i class="fa fa-money" aria-hidden="true"></i>10,000 EUR / full</p>
+				<p class="searchIcons"><i class="fa fa-clock-o" aria-hidden="true"></i>2 years</p>
+				<p class="searchIcons"><i class="fa fa-university" aria-hidden="true"></i>On Campus</p>
+				<p class="searchIcons"><i class="fa fa-comments-o" aria-hidden="true"></i>English</p>
+				<div style="float:left;">
+					<img src="https://storage-prtl-co.imgix.net/mp/6e7b9a5c.png?h=66&w=132&fit=fill&bg=fff&pad=8">
+				</div>
+				<div style="margin-left: 131px;">
+					<p style="font-family: RalewayLight;font-weight: bold;">The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B 
+					</p>
+				</div>
+				<div style="text-align:right;padding: 10px;">	
+					<a style="color: #FFF;font-family: RalewayLight;font-weight: bold;background-color: #d52221;padding: 10px;" href="#">read more</a>
+				</div>
+			</div>
+				<div style="background-color: #f3f3f3;margin-bottom:3%;padding:5px;margin-top:2%;">
+				<h3 style="font-family:RalewayExtraBold;color:#D41111;margin-bottom:4px;">Biomedical Sciences, Master</h3>
+				<h4 style="font-family:OpenSansLight;margin-top:0px;color: #9d9d9d;">University of lorem | Lorem,Ispum</h4>
+				<p class="searchIcons"><i class="fa fa-money" aria-hidden="true"></i>10,000 EUR / full</p>
+				<p class="searchIcons"><i class="fa fa-clock-o" aria-hidden="true"></i>2 years</p>
+				<p class="searchIcons"><i class="fa fa-university" aria-hidden="true"></i>On Campus</p>
+				<p class="searchIcons"><i class="fa fa-comments-o" aria-hidden="true"></i>English</p>
+				<div style="float:left;">
+					<img src="https://storage-prtl-co.imgix.net/mp/6e7b9a5c.png?h=66&w=132&fit=fill&bg=fff&pad=8">
+				</div>
+				<div style="margin-left: 131px;">
+					<p style="font-family: RalewayLight;font-weight: bold;">The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B 
+					</p>
+				</div>
+				<div style="text-align:right;padding: 10px;">	
+					<a style="color: #FFF;font-family: RalewayLight;font-weight: bold;background-color: #d52221;padding: 10px;" href="#">read more</a>
+				</div>
+			</div>
+				<div style="background-color: #f3f3f3;margin-bottom:3%;padding:5px;margin-top:2%;">
+				<h3 style="font-family:RalewayExtraBold;color:#D41111;margin-bottom:4px;">Biomedical Sciences, Master</h3>
+				<h4 style="font-family:OpenSansLight;margin-top:0px;color: #9d9d9d;">University of lorem | Lorem,Ispum</h4>
+				<p class="searchIcons"><i class="fa fa-money" aria-hidden="true"></i>10,000 EUR / full</p>
+				<p class="searchIcons"><i class="fa fa-clock-o" aria-hidden="true"></i>2 years</p>
+				<p class="searchIcons"><i class="fa fa-university" aria-hidden="true"></i>On Campus</p>
+				<p class="searchIcons"><i class="fa fa-comments-o" aria-hidden="true"></i>English</p>
+				<div style="float:left;">
+					<img src="https://storage-prtl-co.imgix.net/mp/6e7b9a5c.png?h=66&w=132&fit=fill&bg=fff&pad=8">
+				</div>
+				<div style="margin-left: 131px;">
+					<p style="font-family: RalewayLight;font-weight: bold;">The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B The field of biomedical science seeks to explain physiological and 
+						pathologica The Biomedical Sciences programme is offered 
+						University of B 
+					</p>
+				</div>
+				<div style="text-align:right;padding: 10px;">	
+					<a style="color: #FFF;font-family: RalewayLight;font-weight: bold;background-color: #d52221;padding: 10px;" href="#">read more</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	</div>
+	
+	<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-6 footerleft ">
+        <div class="logofooter"> <img src="img/logo.png" style="height:69px;"></div>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+        <p><i class="fa fa-map-pin"></i> 210, Aggarwal Tower, Rohini sec 9, New Delhi -        110085, INDIA</p>
+        <p><i class="fa fa-phone"></i> Phone (India) : +91 9999 878 398</p>
+        <p><i class="fa fa-envelope"></i> E-mail : info@webenlance.com</p>
+        
+      </div>
+      <div class="col-md-2 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">GENERAL LINKS</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Career</a></li>
+          <li><a href="#"> Privacy Policy</a></li>
+          <li><a href="#"> Terms & Conditions</a></li>
+          <li><a href="#"> Client Gateway</a></li>
+          <li><a href="#"> Ranking</a></li>
+          <li><a href="#"> Case Studies</a></li>
+          <li><a href="#"> Frequently Ask Questions</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <h6 class="heading7">LATEST POST</h6>
+        <div class="post">
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
+          <p>facebook crack the movie advertisment code:what it means for you <span>August 3,2015</span></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6 paddingtop-bottom">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+          <div class="fb-xfbml-parse-ignore">
+            <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+      <p>© 2016 - All Rights with Webenlance</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">webenlance.com</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contact us</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/select2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		$("#disc").select2();
+		$('#disc').select2({
+		placeholder: function(){
+			$(this).data('placeholder');
+		}
+		})
+		$("#course").select2();
+		$('#course').select2({
+		placeholder: function(){
+			$(this).data('placeholder');
+		}
+		})
+		$("#uni").select2();
+		$('#uni').select2({
+		placeholder: function(){
+			$(this).data('placeholder');
+		}
+		})
+		$("#edu").select2();
+		$('#edu').select2({
+		placeholder: function(){
+			$(this).data('placeholder');
+		}
+		})
+		$("#lang").select2();
+		$('#lang').select2({
+		placeholder: function(){
+			$(this).data('placeholder');
+		}
+		})
+		 $("#slider").slider({
+            range: "min",
+            animate: true,
+            value: 1,
+            min: 0,
+            max: 1000,
+            step: 10,
+            slide: function (event, ui) {
+                update(1, ui.value); //changed
+            }
+        });
+
+        //Added, set initial value.
+        $("#amount").val(0);
+        $("#amount-label").text(0);
+
+
+        update();
+    });
+
+    //changed. now with parameter
+    function update(slider, val) {
+        //changed. Now, directly take value from ui.value. if not set (initial, will use current value.)
+        var $amount = slider == 1 ? val : $("#amount").val();
+
+        /* commented
+         $amount = $( "#slider" ).slider( "value" );
+         $duration = $( "#slider2" ).slider( "value" );
+         */
+
+        $("#amount").val($amount);
+        $("#amount-label").text($amount);
+
+        $('#slider a').html('<label>' + $amount + '</label><div class="ui-slider-label-inner"></div>');
+		}
+	
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+.form-control{
+	background-color: #d41111;
+    color: #fff;
+	width:100%;
+	margin-bottom:9px;
+}
+.select2-container--default .select2-selection--multiple{
+	background-color: #f3f3f3;
+    border: 0px;
+}
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+	border:solid #d41111 1px;
+}
